@@ -1,12 +1,10 @@
 # LIFL
-LInux Filesystem Logger.
-
 
 Description
 =================================================
 	
 	LIFL.
-	LInux Filesystem Logger.
+	(LInux Filesystem Logger.)
 	Version 0.1 beta.
 
 	A filesystem activities to MySQL database
@@ -65,7 +63,7 @@ Project goal
 
     Transparency.
     Usability.
-	  Stability.
+    Stability.
 
 
 Compiling
