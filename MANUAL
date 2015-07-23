@@ -155,7 +155,6 @@ This enables or disables the logging of systems calls made within the running en
 
 In the case of load or bandwith issues where you need to limit 
 network or socket i/o you can disable logging of syscall operations separatly.
-The getattr()/status system call is disabled by default.
 
 *******************************************************************************************************
 
