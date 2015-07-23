@@ -18,7 +18,7 @@ Description
 	THIS IS A BETA VERSION, AND NEED TESTING.
 
 
-Discription usage
+Usage
 =================================================
 	
 	The program remount a directory-path
