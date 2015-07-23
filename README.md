@@ -59,9 +59,9 @@ Please feel free to interact.
 Project goal
 =================================================
 
-Transparency.
-Usability.
-Stability.
++ Transparency.
++ Usability.
++ Stability.
 
 
 Compiling
@@ -131,9 +131,9 @@ Example: ./lifl --config lifl.config --test
 Notices
 ===============================================
 
-x Remember to unmount the virtual directory after use.
++ Remember to unmount the virtual directory after use.
 
-x The write data dump is ment to be an extra (experimental) feature.
++ The write data dump is ment to be an extra (experimental) feature.
   Many calls to pwrite are of block sizes (4096).
   You might log unwanted junk if you dont narrow it down with
   configuration options.
