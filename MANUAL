@@ -1,0 +1,179 @@
+(This file will be the manual page when the text is completed.)
+
+*******************************************************************************************************
+
+Default file name for configuration is './lifl.conf'.
+
+*******************************************************************************************************
+
+Hostname:
+
+	hostname=
+
+String to set the name of host. Hostname is obtained if not set.
+
+*******************************************************************************************************
+
+Tagname:
+
+	tagname=
+
+Tagname strings can be useful to seperate sessions. Tagname could be anything to specify a number 
+of data in database table.
+
+*******************************************************************************************************
+
+Mountpoint:
+
+	mountpoint=
+
+Mountpoint is where the virtual filesystem is mounted (directory remounted).
+Only full path is accepted. The mountpoint path is subject to the FUSE environment options.
+
+*******************************************************************************************************
+
+FUSE environment options 'on' or 'off':
+
+	allow_other=
+	default_permissions=
+	nonempty=
+
+These options change the behaviour of the mountpoint.
+The default options 'on' is the prefered options for LIFL, but you might want to get into this
+for some kind of reason.
+
+*******************************************************************************************************
+
+Database credentials:
+
+	db_host=
+	db_port=
+	db_database=
+	db_username=
+	db_password=
+	
+Here you must enter the neccesary credentials for connectivity to a MySQL database server.
+This account must have permission granted for SELECT and INSERT.
+
+Also make sure that the configuration file have the right file permissions
+to store the database password in cleartext safely.
+
+*******************************************************************************************************
+
+The database tables:
+
+You have the following sql scripts to create the following tables:
+
+	- operations.sql
+	- errors.sql
+	- data_dump.sql
+
+Database table:
+
+	db_table=
+
+Should be the string with the name of the operations table.
+
+	db_error_table=
+
+Should be the string with the name of the errors table.
+
+	db_dump_table=
+	
+Should be the string with the name of the data dump table.
+
+Tablenames can be modified. You might want to have multiple tables for different uses.
+Here you will need to fill out the strings for the name of the tables before run.
+
+*******************************************************************************************************
+
+Logging error messages 'on' or 'off'.
+
+	enable_error_messages=
+
+If enabled, you will in the event of a failed syscall, store the error message in the error table. 
+It might become handy.
+
+(Data is stored in the table set in db_error_table.)
+
+*******************************************************************************************************
+
+Experimental write data logging 'on' or 'off'.
+
+	enable_write_dumps=
+
+Will log a copy of the buffer sent to the system write call with the size of the buffer and the offset of the file.
+This might be a good idea, or maybe not.
+
+(Data is stored in the table set in db_dump_table.)
+
+Options to limit logging of write data:
+
+	write_dump_effective_uid=
+
+Only log write buffers with effective uid equal to.
+
+	write_dump_size_less_than=
+
+Only log write buffers with sizes less than.
+
+	write_dump_cmd=
+
+Only log write buffers with matching cmd.
+Use the name of the executable in path, not including pathname!
+
+*******************************************************************************************************
+
+Syscall 'on' or 'off':
+
+	syscall_getattr=
+	syscall_access=
+	syscall_readlink=
+	syscall_readdir=
+	syscall_mknod=
+	syscall_mkdir=
+	syscall_unlink=
+	syscall_rmdir=
+	syscall_symlink=
+	syscall_rename=
+	syscall_link=
+	syscall_chmod=
+	syscall_chown=
+	syscall_truncate=
+	syscall_utimens=
+	syscall_open=
+	syscall_read=
+	syscall_write=
+	syscall_statfs=
+	syscall_fallocate=
+	syscall_setxattr=
+	syscall_getxattr=
+	syscall_listxattr=
+	syscall_removexattr=
+
+This enables or disables the logging of systems calls made within the running environment.
+
+In the case of load or bandwith issues where you need to limit 
+network or socket i/o you can disable logging of syscall operations separatly.
+The getattr()/status system call is disabled by default.
+
+*******************************************************************************************************
+
+Additional Logging 'on' or 'off':
+
+	log_username=
+	log_groupname=
+	log_tty=
+	log_login_time=
+	log_remote_host=
+	log_cmd=
+	log_args=
+	log_ppid=
+	log_ppid_cmd=
+
+Log system data enable or disable.
+
+Some of this additional logging creates a longer execution path for any system call.
+Beware of the amount of information created and the corrensponding long execution paths. 
+
+*******************************************************************************************************
