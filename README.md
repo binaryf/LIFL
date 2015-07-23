@@ -95,9 +95,9 @@ you must add 'user_allow_other' in /etc/fuse.conf.
 Database
 =================================================
 
-1 - create database
-2 - create database user
-3 - create tables from sql scripts. 
++ create database
++ create database user
++ create tables from sql scripts. 
 	
 When you have created the database, the database user and
 the tables, you will need a SELECT and INSERT permission for the program.
