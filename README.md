@@ -116,8 +116,8 @@ Using
 
 You have two options available:
 
--c --config
--t --test
++ -c --config
++ -t --test
 
 Whithout any arguments program will start, daemonize, 
 and load the configuration from default file.
