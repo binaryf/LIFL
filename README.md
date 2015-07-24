@@ -31,9 +31,8 @@ known as loggedfs, this is added:
 + Error messages are now stored as human readable strings.
 + Simple 'on' and 'off' switches to increase performance.
 + An experimental write data dump feature is implented.</br>
- Controlled with options to limit the output
- to the effective userid, write size or a
- specified command you might want to target.
+ Controlled with options to limit the output to the effective userid,</br>
+ write size or a specified command you might want to target.
 
 The database formatted output can be of interest for further development.</br>
 My intention is to use a sql client front-end, like MySQLWorkbench.
