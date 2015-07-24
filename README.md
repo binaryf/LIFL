@@ -126,8 +126,8 @@ Notices
 
 + Remember to unmount the virtual directory after use.
 
-+ The write data dump is ment to be an extra (experimental) feature.
-  Many calls to pwrite are of block sizes (4096).
++ The write data dump is ment to be an extra (experimental) feature.</br>
+  Many calls to pwrite are of block sizes (4096).</br>
   You might log unwanted junk if you dont narrow it down with
   configuration options.
 
