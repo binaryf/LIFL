@@ -3,9 +3,9 @@
 Description
 =================================================
 	
-LIFL. Linux Filesystem Logger. Version 0.1 beta.
-A filesystem activities to MySQL database logging daemon.
-This software is similar to loggedfs, (work from Rémi Flament and Victor Itkin),
+LIFL. Linux Filesystem Logger. Version 0.1 beta.</br>
+A filesystem activities to MySQL database logging daemon.</br>
+This software is similar to loggedfs, (work from Rémi Flament and Victor Itkin),</br>
 but rewritten in C mainly with the purpose of storing data directly to database.
 
 THIS IS A BETA VERSION, AND NEED TESTING.
