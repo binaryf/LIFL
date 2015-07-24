@@ -14,16 +14,11 @@ THIS IS A BETA VERSION, AND NEED TESTING.
 Usage
 =================================================
 	
-The program remount a directory-path as a virtual filesystem.
+The program remount a directory-path as a virtual filesystem.</br>
+Any filesystem operations inside this directory, is logged in detail.</br>
+The data can easily be arranged and analyzed by making spesific sql queries.</br>
 
-Any filesystem operations inside this directory,
-is logged in detail.
-	
-The data can easily be arranged and analyzed by
-making spesific sql queries.
-
-Program is configurable and features can be
-enabled or disabled.
+Program is configurable and features can be enabled or disabled.
 
 Additional to the previous version of the project,
 known as loggedfs, this is added:
@@ -40,14 +35,8 @@ known as loggedfs, this is added:
  to the effective userid, write size or a
  specified command you might want to target.
 
-Remember to disable functionality you dont need.
-
 The database formatted output can be of interest for further development.
 My intention is to use a sql client front-end, like MySQLWorkbench.
-
-This project, need a project! :)
-
-Please feel free to interact.
 
 
 Project goal
