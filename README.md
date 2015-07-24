@@ -7,10 +7,8 @@ LIFL. (Linux Filesystem Logger) Version 0.1 beta.
 
 A filesystem activities to MySQL database logging daemon.
 
-This software is similar to loggedfs,
-(work from Rémi Flament and Victor Itkin),
-but rewritten in C mainly with the purpose
-of storing data directly to database.
+This software is similar to loggedfs, (work from Rémi Flament and Victor Itkin),
+but rewritten in C mainly with the purpose of storing data directly to database.
 
 THIS IS A BETA VERSION, AND NEED TESTING.
 
@@ -73,7 +71,7 @@ You will need:
 Depending on your linux you need to set the flags
 <pre>
 -D_FILE_OFFSET_BITS=64
--D_FILE_OFFSET_BITS=32.
+-D_FILE_OFFSET_BITS=32
 </pre>
 
 And eventually you might want to add
