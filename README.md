@@ -70,17 +70,18 @@ You will need:
 + libmysqlclient-dev
 + libfuse-dev
 
-Depending on your linux you need to set the flag
-+ -D_FILE_OFFSET_BITS=64 or
-+ -D_FILE_OFFSET_BITS=32.
+Depending on your linux you need to set the flags
+<pre>
+-D_FILE_OFFSET_BITS=64
+-D_FILE_OFFSET_BITS=32.
+</pre>
 
 And eventually you might want to add
+<pre>
 + -DHAVE_UTIMENSAT
 + -DHAVE_POSIX_FALLOCATE
 + -DHAVE_SETXATTR
-
-(Behaviour with these flags is not tested.
-I need more time with this.)
+</pre>
 
 If you want to start lifl as your user, add
 read permission to /etc/fuse.conf, or add your
@@ -106,9 +107,8 @@ the tables, you will need a SELECT and INSERT permission for the program.
 Configuration
 =================================================
 	
-Defualt filename is 'lifl.conf'
-	
-(See "man-page")	
++ Defualt filename is 'lifl.conf' 
++ (See "MANUAL")	
 
 
 Using
@@ -116,8 +116,10 @@ Using
 
 You have two options available:
 
-+ -c --config
-+ -t --test
+<pre>
+-c --config
+-t --test
+</pre>
 
 Whithout any arguments program will start, daemonize, 
 and load the configuration from default file.
