@@ -3,9 +3,7 @@
 Description
 =================================================
 	
-LIFL.
-(LInux Filesystem Logger)
-Version 0.1 beta.
+LIFL. (LInux Filesystem Logger) Version 0.1 beta.
 
 A filesystem activities to MySQL database logging daemon.
 
@@ -142,12 +140,9 @@ Notices
 Needs
 ==================================================
 
-Testing!
-Minor bug fixes?
++ Testing!
++ Minor bug fixes?
 
-Please submit bug reports, feature requests
-and feedback to fr@68k.no
-	
 
 Future features?
 =================================================
