@@ -35,7 +35,7 @@ known as loggedfs, this is added:
  to the effective userid, write size or a
  specified command you might want to target.
 
-The database formatted output can be of interest for further development.
+The database formatted output can be of interest for further development.</br>
 My intention is to use a sql client front-end, like MySQLWorkbench.
 
 
