@@ -30,7 +30,7 @@ known as loggedfs, this is added:
 + Parent process pid also with the parent cmd.
 + Error messages are now stored as human readable strings.
 + Simple 'on' and 'off' switches to increase performance.
-+ An experimental write data dump feature is implented.
++ An experimental write data dump feature is implented.</br>
  Controlled with options to limit the output
  to the effective userid, write size or a
  specified command you might want to target.
