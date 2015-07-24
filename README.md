@@ -83,11 +83,11 @@ And eventually you might want to add
 -DHAVE_SETXATTR
 </pre>
 
-+ If you want to start lifl as your user, add
+If you want to start lifl as your user, add
 read permission to /etc/fuse.conf, or add your
 user to fuse group.
 
-+ To allow non-root users to use the allow_other mount option,
+To allow non-root users to use the allow_other mount option,
 you must add 'user_allow_other' in /etc/fuse.conf.
 
 
