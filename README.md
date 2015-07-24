@@ -122,9 +122,12 @@ You have two options available:
 Whithout any arguments program will start, daemonize, 
 and load the configuration from default file.
 
-+ Example: ./lifl
-+ Example: ./lifl --config lifl.config
-+ Example: ./lifl --config lifl.config --test
+Example:
+<pre>
+./lifl
+./lifl --config lifl.config
+./lifl --config lifl.config --test
+</pre>
 
 Notices
 ===============================================
