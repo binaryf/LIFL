@@ -78,9 +78,9 @@ Depending on your linux you need to set the flags
 
 And eventually you might want to add
 <pre>
-+ -DHAVE_UTIMENSAT
-+ -DHAVE_POSIX_FALLOCATE
-+ -DHAVE_SETXATTR
+-DHAVE_UTIMENSAT
+-DHAVE_POSIX_FALLOCATE
+-DHAVE_SETXATTR
 </pre>
 
 If you want to start lifl as your user, add
