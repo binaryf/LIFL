@@ -71,8 +71,8 @@ You will need:
 + libfuse-dev
 
 Depending on your linux you need to set the flag
-    -D_FILE_OFFSET_BITS=64 or
-    -D_FILE_OFFSET_BITS=32.
++ -D_FILE_OFFSET_BITS=64 or
++ -D_FILE_OFFSET_BITS=32.
 
 And eventually you might want to add
 + -DHAVE_UTIMENSAT
