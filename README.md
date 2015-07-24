@@ -67,17 +67,17 @@ Compiling
 
 You will need:
 
-libmysqlclient-dev
-libfuse-dev
++ libmysqlclient-dev
++ libfuse-dev
 
 Depending on your linux you need to set the flag
--D_FILE_OFFSET_BITS=64 or
--D_FILE_OFFSET_BITS=32.
++ -D_FILE_OFFSET_BITS=64 or
++ -D_FILE_OFFSET_BITS=32.
 
 And eventually you might want to add
--DHAVE_UTIMENSAT
--DHAVE_POSIX_FALLOCATE
--DHAVE_SETXATTR
++ -DHAVE_UTIMENSAT
++ -DHAVE_POSIX_FALLOCATE
++ -DHAVE_SETXATTR
 
 (Behaviour with these flags is not tested.
 I need more time with this.)
