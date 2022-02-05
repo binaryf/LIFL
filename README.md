@@ -1,4 +1,4 @@
-# LIFL
+# fr-LIFL
 
 Description
 =================================================
@@ -135,16 +135,16 @@ Notices
 Needs
 ==================================================
 
-+ Testing!
-+ Minor bug fixes?
++ Testing.
++ Minor bug fixes.
 
 
-Future features?
+Future features
 =================================================
 
-+ Manpage
-+ Makefile
-+ Make thread-safe
-+ Bandwith optimalization
-+ Filelist to target locations
++ Manpage.
++ Makefile.
++ Thread-safe.
++ Bandwith optimalization.
++ Filelist to target locations.
 
